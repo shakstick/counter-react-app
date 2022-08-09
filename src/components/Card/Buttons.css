@@ -1,0 +1,35 @@
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1rem;
+	width: 100%;
+}
+
+button {
+	padding: 0.5rem 0.75rem;
+	border-radius: 7px;
+	color: white;
+	font-size: 1.5rem;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.subtract {
+	background-color: #f94c66;
+}
+
+.reset {
+	background-color: #40dfef;
+}
+
+.add {
+	background-color: #53bf9d;
+}
+
+@media (max-width: 600px) {
+	button {
+		font-size: 1.1rem;
+		padding-block: 0.75rem;
+	}
+}
